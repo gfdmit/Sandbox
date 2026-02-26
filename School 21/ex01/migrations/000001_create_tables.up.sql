@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS admins (
+    id SERIAL PRIMARY KEY,
+    login VARCHAR(256) UNIQUE NOT NULL,
+    password VARCHAR(256) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS posts (
+    id SERIAL PRIMARY KEY,
+    header TEXT NOT NULL,
+    content TEXT NOT NULL
+);

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Graphic</class>
+ <widget class="QMainWindow" name="Graphic">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>543</width>
+    <height>438</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(32,32,32);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="yMinLabel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>380</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+color: white;
+padding-left: 2;
+font: 14pt &quot;Sans Serif Collection&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Y Min</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="xMinLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>380</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+color: white;
+padding-left: 2;
+font: 14pt &quot;Sans Serif Collection&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>X Min</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonGraph">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>380</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #b5adeb;
+color: #2e2c3c;
+font: 14pt &quot;Sans Serif Collection&quot;;
+border-radius: 5%;
+margin: 2;
+}
+
+QPushButton:hover {
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
+}</string>
+    </property>
+    <property name="text">
+     <string>graph</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="yMaxLabel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>345</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+color: white;
+padding-left: 2;
+font: 14pt &quot;Sans Serif Collection&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Y Max</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="yMax">
+    <property name="geometry">
+     <rect>
+      <x>249</x>
+      <y>345</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QDoubleSpinBox {
+background-color: #323232;
+color: #ffffff;
+font: 14pt &quot;Sans Serif Collection&quot;;
+border-radius: 5%;
+margin: 2;
+}
+
+QDoubleSpinBox:hover {
+background-color: #3B3B3B;
+}
+
+QDoubleSpinBox::up-button { width: 20px;
+border:0;
+}
+
+QDoubleSpinBox::down-button { width: 20px;
+border: 0;
+}</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="xMax">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>345</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QDoubleSpinBox {
+background-color: #323232;
+color: #ffffff;
+font: 14pt &quot;Sans Serif Collection&quot;;
+border-radius: 5%;
+margin: 2;
+}
+
+QDoubleSpinBox:hover {
+background-color: #3B3B3B;
+}
+
+QDoubleSpinBox::up-button { width: 20px;
+border:0;
+}
+
+QDoubleSpinBox::down-button { width: 20px;
+border: 0;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="xMaxLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>345</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+color: white;
+padding-left: 2;
+font: 14pt &quot;Sans Serif Collection&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>X Max</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="yMin">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>380</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QDoubleSpinBox {
+background-color: #323232;
+color: #ffffff;
+font: 14pt &quot;Sans Serif Collection&quot;;
+border-radius: 5%;
+margin: 2;
+}
+
+QDoubleSpinBox:hover {
+background-color: #3B3B3B;
+}
+
+QDoubleSpinBox::up-button { width: 20px;
+border:0;
+}
+
+QDoubleSpinBox::down-button { width: 20px;
+border: 0;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="result">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>345</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;
+color: black;
+font: 14pt &quot;Sans Serif Collection&quot;;
+border-radius: 5%;
+margin: 2;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="xMin">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>380</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QDoubleSpinBox {
+background-color: #323232;
+color: #ffffff;
+font: 14pt &quot;Sans Serif Collection&quot;;
+border-radius: 5%;
+margin: 2;
+}
+
+QDoubleSpinBox:hover {
+background-color: #3B3B3B;
+}
+
+QDoubleSpinBox::up-button { width: 20px;
+border:0;
+}
+
+QDoubleSpinBox::down-button { width: 20px;
+border: 0;
+}</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>541</width>
+      <height>341</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>543</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Меню</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action_2"/>
+    <addaction name="action_3"/>
+    <addaction name="action_4"/>
+    <addaction name="action_5"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="action_2">
+   <property name="text">
+    <string>Обычный</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Инженерный</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>Графики</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>Кредиты</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

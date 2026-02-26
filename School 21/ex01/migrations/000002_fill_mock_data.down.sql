@@ -1,0 +1,3 @@
+DELETE FROM admins;
+
+DELETE FROM posts;
