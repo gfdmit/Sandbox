@@ -1,0 +1,258 @@
+{
+	"info": {
+		"_postman_id": "45ecd2b2-ae94-4d54-af6c-562894efbb98",
+		"name": "TelegramBot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42666364"
+	},
+	"item": [
+		{
+			"name": "getMe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.telegram.org/bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw/getMe",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw",
+						"getMe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendMessage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.telegram.org/bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw/sendMessage?chat_id=507968755&text=/start",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw",
+						"sendMessage"
+					],
+					"query": [
+						{
+							"key": "chat_id",
+							"value": "507968755"
+						},
+						{
+							"key": "text",
+							"value": "/start"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUpdates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.telegram.org/bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw/getUpdates",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw",
+						"getUpdates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendPhoto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "postman-cloud:///1eff49e8-821e-4eb0-be04-73056b367de7"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw/sendPhoto?chat_id=507968755",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw",
+						"sendPhoto"
+					],
+					"query": [
+						{
+							"key": "chat_id",
+							"value": "507968755"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendPDF",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "postman-cloud:///1eff49eb-cd01-4ba0-8d54-7c0a759ca6a5"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw/sendPhoto?chat_id=507968755",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw",
+						"sendPhoto"
+					],
+					"query": [
+						{
+							"key": "chat_id",
+							"value": "507968755"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendDocxPhoto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "postman-cloud:///1eff49ee-ce8b-4ae0-8126-510d32856649"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw/sendPhoto?chat_id=507968755",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw",
+						"sendPhoto"
+					],
+					"query": [
+						{
+							"key": "chat_id",
+							"value": "507968755"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendDocxDocument",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "document",
+							"type": "file",
+							"src": "postman-cloud:///1eff49ee-ce8b-4ae0-8126-510d32856649"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw/sendDocument?chat_id=507968755",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw",
+						"sendDocument"
+					],
+					"query": [
+						{
+							"key": "chat_id",
+							"value": "507968755"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUserProfilePhotos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.telegram.org/bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw/getUserProfilePhotos?user_id=507968755",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7583181127:AAF30IFHYpS1ZLTzZNJFfRefC1VgFzVtCgw",
+						"getUserProfilePhotos"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "507968755"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
