@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package transmitter;
+
+import "google/protobuf/empty.proto";
+
+option go_package = "./api/transmitter;api";
+
+message DataEntry {
+    string session_id = 1;
+    double frequency = 2;
+    string time_session = 3;
+}
+
+service TransmitterService {
+    rpc TransmitData(google.protobuf.Empty) returns (stream DataEntry);
+}

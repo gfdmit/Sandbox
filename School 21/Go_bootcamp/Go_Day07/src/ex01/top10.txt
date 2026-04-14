@@ -1,0 +1,18 @@
+File: ex01.test.exe
+Build ID: C:\Users\79963\AppData\Local\Temp\go-build1817276421\b001\ex01.test.exe2025-02-17 20:23:32.3629295 +0300 MSK
+Type: cpu
+Time: Feb 17, 2025 at 8:23pm (MSK)
+Duration: 4.40s, Total samples = 5.81s (131.92%)
+Showing nodes accounting for 5.43s, 93.46% of 5.81s total
+Dropped 106 nodes (cum <= 0.03s)
+      flat  flat%   sum%        cum   cum%
+     1.75s 30.12% 30.12%      1.93s 33.22%  moneybag/ex00.MinCoins2
+     0.60s 10.33% 40.45%      0.60s 10.33%  runtime.stdcall2
+     0.51s  8.78% 49.23%      0.51s  8.78%  runtime.memclrNoHeapPointers
+     0.23s  3.96% 53.18%      1.49s 25.65%  moneybag/ex00.MinCoins (inline)
+     0.20s  3.44% 56.63%      0.56s  9.64%  runtime.scanobject
+     0.18s  3.10% 59.72%      0.18s  3.10%  runtime.memmove
+     0.18s  3.10% 62.82%      0.19s  3.27%  runtime.stdcall1
+     0.16s  2.75% 65.58%      0.19s  3.27%  runtime.scanblock
+     0.16s  2.75% 68.33%      0.27s  4.65%  runtime.typePointers.next
+     0.14s  2.41% 70.74%      0.14s  2.41%  runtime.stdcall3

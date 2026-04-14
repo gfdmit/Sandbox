@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Blog</title>
+    <!-- <link> -->
+</head>
+
+<body>
+    <header>
+        <!-- Кнопка "Админ панель" -->
+        <a href="/admin" style="margin-right: 10px;">
+            <button>Admin Panel</button>
+        </a>
+
+        <!-- Кнопка "Логин" -->
+        <a href="/login">
+            <button>Login</button>
+        </a>
+    </header>
+
+    <h1>Welcome to my blog</h1>
+    <img src="../img/amazing_logo.png" alt="Amazing logo">
+    <ul>
+        {{range .Articles}}
+        <div>
+            <h2><a href="/article?id={{.Id}}">{{.Title}}</a></h2>
+            <p>{{.Preview}}</p>
+        </div>
+        {{end}}
+        <!-- </ul> -->
+        <a href="/?page={{.Prev}}">Previous</a>
+
+        <a href="/?page={{.Next}}">Next</a>
+    </ul>
+</body>
+
+</html>
